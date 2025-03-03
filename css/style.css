@@ -1,0 +1,81 @@
+.dep {
+/*	border-style: solid;
+	border-radius: 20px;
+	background-color: red;*/
+	color:white;
+	padding: 7px;
+	width: 100%; 
+	border-style: none;
+	 border-radius: 20px;
+	 background-image: radial-gradient(circle, #1ff456, #1bef52, #18ea4d, #13e549, #0ee044);
+	opacity: 1;
+	transition: 0.3;
+}
+.dep:hover {opacity: 0.4;}
+
+.wit {
+/*	border-style: solid;
+	border-radius: 20px;
+	background-color: red;*/
+	color:white;
+	padding: 7px;
+	width: 100%; 
+    border-style: none;
+    border-radius: 20px;
+    background-image: radial-gradient(circle, #f41f57, #ed1345, #e50733, #dc021f, #d10505);
+    opacity: 1;
+	transition: 0.3;
+
+}
+.wit:hover {opacity: 0.4;}
+
+.t-money {
+	color:white;
+
+    margin-bottom: 5px;
+	padding: 6px;
+	width: 100%; 
+    border-style: none;
+    border-radius: 20px;
+	background-image: radial-gradient(circle, #1febf4, #00cdf6, #00aef4, #008ce9, #0567d1);
+	opacity: 1;
+	transition: 0.3;
+}
+.t-money:hover {opacity: 0.4;}
+
+
+.t-money-c {
+	color:white;
+
+    margin-bottom: 5px;
+	padding: 6px;
+	width: 100%; 
+    border-style: none;
+    border-radius: 20px;
+	 background-image: radial-gradient(circle, #f41f57, #ed1345, #e50733, #dc021f, #d10505);
+	opacity: 1;
+	transition: 0.3;
+}
+.t-money-c:hover {opacity: 0.4;}
+
+/*toast msg*/
+#toast-container {
+    position: sticky;
+    z-index: 1055;
+    top: 0
+}
+
+#toast-wrapper {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 5px
+}
+
+#toast-container > #toast-wrapper > .toast {
+    min-width: 150px
+}
+
+#toast-container > #toast-wrapper > .toast >.toast-header strong {
+    padding-right: 20px
+}
